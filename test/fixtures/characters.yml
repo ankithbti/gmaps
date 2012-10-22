@@ -1,0 +1,25 @@
+# == Schema Information
+#
+# Table name: characters
+#
+#  id         :integer          not null, primary key
+#  name       :string(255)
+#  address    :string(255)
+#  latitude   :string(255)
+#  longitude  :string(255)
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#  gmaps      :boolean
+#
+
+one:
+  name: MyString
+  address: MyString
+  latitude: MyString
+  longitude: MyString
+
+two:
+  name: MyString
+  address: MyString
+  latitude: MyString
+  longitude: MyString
